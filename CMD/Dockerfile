@@ -6,3 +6,6 @@ RUN yum update -y
 RUN yum install nginx -y
 #Command to run the nginx container in foreground
 CMD ["nginx", "-g", "daemon off;"]
+
+#RUN instruction will be executed at the time of image creation
+#CMD instruction will be executed at the time of container creation
