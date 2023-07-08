@@ -1,4 +1,4 @@
-FROM alamlinux:8
+FROM nginx:latest
 ENV USERNAME=admin \
     PASSWORD=admin123 \
     PORT=3306 \
