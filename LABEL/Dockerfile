@@ -3,4 +3,5 @@ FROM almalinux:8
 #it is used in a filteration mechanism
 LABEL COURSE=TERRAFORM \
       DURATION=40HRS \
-      TRAINER=SIVA
+      TRAINER=SIVA \
+      AUTHOR="mjsr31@gmail.com"
